@@ -195,8 +195,7 @@ var Layout = React.createClass({
 
         <div className="appContent">
           {this.state.programs.map(function(program,i){
-
-            return <Program key = {i} name = {program.University} logo={program.logo} />
+            return <Program  key = {i} name = {program.University} logo={program.logo} division={program.Division}/>
           })}
           {console.log(this.state.programs)}
 

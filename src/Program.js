@@ -9,12 +9,15 @@ import programs from '../www/data/usat-ncaa-programs.js';
 var Program = React.createClass({
   render: function(){
     const imgPath = "./images/" + this.props.logo
-    return (
-      <div>
-        <h1>{this.props.name}</h1>
-        <img src={imgPath} />
 
-        <h2>This is it's description</h2>
+    return (
+      <div className = "card">
+        <div className = "cardContent">
+          <h3>{this.props.name}</h3>
+          <span>Division: {this.props.division}</span>
+          <img alt="University Logo"  src={imgPath} />
+
+          </div>
       </div>
     )
   }

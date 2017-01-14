@@ -7,7 +7,7 @@ var app = express();
 var compiler = webpack(webpackConfig);
  
 app.use(express.static(__dirname + '/www'));
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 5000));
 
 app.use(webpackDevMiddleware(compiler, {
   hot: true,

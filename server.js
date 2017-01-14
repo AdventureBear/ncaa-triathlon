@@ -21,9 +21,12 @@ app.use(webpackDevMiddleware(compiler, {
   },
   historyApiFallback: true,
 }));
- 
-var server = app.listen('port', function() {
+
+
+
+
+var server = app.listen(app.get('port'), function() {
   var host = server.address().address;
   //var port = server.address().port;
-  console.log('Example app listening at http://%s:%s', host, process.env.PORT);
+  console.log('Example app listening at: ', server, process.env.PORT);
 });

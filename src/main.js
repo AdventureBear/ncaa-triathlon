@@ -1,11 +1,20 @@
 console.log('Hello World!');
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
+
+//import ProgramPreview from './ProgramPreview';
+//import programs from '../www/data/usat-ncaa-programs.js';
+import Layout from './Layout.js'
 
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
-    React.createElement(Counter),
+    <Layout />,
+
     document.getElementById('mount')
   );
 });
+
+
+
+
+

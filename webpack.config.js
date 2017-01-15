@@ -3,11 +3,11 @@ var path = require('path');
 var config = {
   context: path.join(__dirname, 'src'),
   entry: [
-    './main.js',
+    './main.js'
   ],
   output: {
     path: path.join(__dirname, 'www'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
 
   },
   module: {

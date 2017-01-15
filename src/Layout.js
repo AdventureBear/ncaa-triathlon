@@ -206,7 +206,7 @@ var Layout = React.createClass({
             This is a demo app using React to showcase the NCAA Triathlon Programs as of 1/2017. THis site is not affiliated with USAT or the NCAA in any official capacity. This site is not maintained nor updated. Please do not rely on this site for up to date information on NCAA Triathlon.
           </p>
           <p>
-            For uptodate information on NCAA Triathlon Recruiting Contacts, please see <a href="http://www.triathlonrecruit.com">Triathlon Recruit</a>, maintained by Andrew Shanks.
+            For up to date information on NCAA Triathlon Recruiting Contacts, please see <a href="http://www.triathlonrecruit.com">Triathlon Recruit</a>, maintained by Andrew Shanks.
           </p>
 
           </footer>

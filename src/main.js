@@ -1,18 +1,19 @@
 console.log('Hello World!');
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-//import ProgramPreview from './ProgramPreview';
-//import programs from '../www/data/usat-ncaa-programs.js';
+import {render} from 'react-dom';
+//import {Router, Route,  hashHistory } from 'react-router'
 import Layout from './Layout.js'
 
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(
-    <Layout />,
 
-    document.getElementById('mount')
-  );
-});
+//render((
+//  <Router history={hashHistory}>
+//    <Route path="/" component={Layout}/>
+//    <Route path="/about" component={About}/>
+//  </Router>
+//), document.getElementById('app'))
+
+
+
 
 
 

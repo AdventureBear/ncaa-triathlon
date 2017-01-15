@@ -28,5 +28,5 @@ app.use(webpackDevMiddleware(compiler, {
 var server = app.listen(app.get('port'), function() {
   var host = server.address().address;
   //var port = server.address().port;
-  console.log('Example app listening at: ', server, process.env.PORT);
+  console.log('Example app listening at: ', host, process.env.PORT);
 });
